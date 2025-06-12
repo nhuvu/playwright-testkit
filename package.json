@@ -1,0 +1,29 @@
+{
+  "name": "playwright-testkit",
+  "version": "1.0.0",
+  "description": "Modern Playwright testing boilerplate featuring session storage, POM architecture, headless runs, CI-readiness and some code snippets out of the box.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "test:report": "npx playwright show-report",
+    "test:headed": "npx playwright test --headed",
+    "trace:on": "npx playwright test --trace on",
+    "trace:show": "npx playwright show-trace trace.zip"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhuvu/playwright-testkit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nhuvu/playwright-testkit/issues"
+  },
+  "homepage": "https://github.com/nhuvu/playwright-testkit#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.53.0",
+    "@types/node": "^24.0.1"
+  }
+}
